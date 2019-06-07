@@ -648,9 +648,8 @@ If you have installed the bridge through Composer, you can run it by calling e.g
 .. tip::
 
     Set the ``SYMFONY_PHPUNIT_VERSION`` env var to e.g. ``5.5`` to change the
-    base version of PHPUnit to ``5.5`` instead of the default ``5.3``.
-
-    It's also possible to set this env var in the ``phpunit.xml.dist`` file.
+    base version of PHPUnit to ``5.5`` instead of the default ``5.3``. This
+    must be set as a real env var, not one set in a dotenv file (eg `.env.test`).
 
 .. tip::
 
